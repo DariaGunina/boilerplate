@@ -16,9 +16,6 @@ gulp.task('serve', function() {
 
 gulp.task('js', function() {
     return gulp.src([
-            'node_modules/jquery/dist/jquery.js',
-            'node_modules/owl.carousel/dist/owl.carousel.min.js',
-            'node_modules/masonry-layout/dist/masonry.pkgd.min.js',
             'src/js/**/*.js'
         ])
         .pipe(uglify())
