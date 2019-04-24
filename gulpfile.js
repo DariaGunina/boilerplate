@@ -25,7 +25,7 @@ gulp.task('js', function() {
 });
 
 gulp.task('pug', function buildHTML() {
-    return gulp.src('src/pug/*.pug')
+    return gulp.src('src/pug/pages/**/*.pug')
     .pipe(pug({
       pretty: true
     }))
